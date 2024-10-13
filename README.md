@@ -1,8 +1,6 @@
-# Limine C Template
+# PixOS
 
-This repository will demonstrate how to set up a basic x86-64 kernel in C using Limine.
-
-It is recommended to cross reference the contents of this repository with [the Limine Bare Bones](https://osdev.wiki/wiki/Limine_Bare_Bones) OSDev wiki page.
+This is my toy-OS made in C based on the [Limine C template](https://github.com/Limine-bootloader/limine-c-template-x86_64)
 
 ## How to use this?
 

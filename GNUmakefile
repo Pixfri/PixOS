@@ -8,7 +8,7 @@ override USER_VARIABLE = $(if $(filter $(origin $(1)),default undefined),$(eval 
 # Default user QEMU flags. These are appended to the QEMU command calls.
 $(call USER_VARIABLE,QEMUFLAGS,-m 2G)
 
-override IMAGE_NAME := template
+override IMAGE_NAME := PixOS
 
 .PHONY: all
 all: $(IMAGE_NAME).iso
